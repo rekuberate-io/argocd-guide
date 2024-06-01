@@ -1,0 +1,11 @@
+apiVersion: core.rekuberate.io/v1alpha1
+kind: SleepCycle
+metadata:
+  name: sleepcycle-argocd-demos
+  namespace: argocd-demos
+spec:
+  shutdown: "1/2 * * * *"
+  shutdownTimeZone: "Europe/Athens"
+  wakeup: "*/2 * * * *"
+  wakeupTimeZone: "Europe/Dublin"
+  enabled: true
