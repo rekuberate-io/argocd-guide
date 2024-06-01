@@ -14,8 +14,8 @@ data:
       <body>
         <div class="container">
           <div class="jumbotron mt-5">
-            <h1 class="display-4">Welcome, DevOps Engineer!</h1>
-            <p class="lead">Hi DevOps Engineer, I got Synced using ArgoCD.</p>
+            <h1 class="display-4">Welcome to an ArgoCD demo!</h1>
+            <p class="lead">Let's try rekuberate-io/sleepcycles with ArgoCD.</p>
           </div>
         </div>
       </body>
